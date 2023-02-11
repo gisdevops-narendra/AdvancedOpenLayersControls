@@ -7,7 +7,7 @@ const map = new ol.Map({
     ],
     view: new ol.View({
         center: ol.proj.fromLonLat([-0.12755, 51.507222]),
-        zoom: 14
+        zoom: 10
     })
 });
 const popup = new Popup({
