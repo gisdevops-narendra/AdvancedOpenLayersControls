@@ -1,0 +1,51 @@
+.popup-container {
+    width: 300px;
+    height: 250px;
+    position: fixed;
+    right: 5px;
+    top: 77px;
+    z-index: 999;
+    display: none;
+}
+.header-container {
+    width: 302px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: move;
+}
+.content-container {
+    width: 100%;
+    height: calc(100% - 50px);
+    background-color: #fff;
+    border: 1px solid;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #333333;
+    height: 32px;
+    width: 302px;
+}
+.save-button {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+.clear-button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.close-button{
+    background-color: rgb(217, 255, 0);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
